@@ -1,0 +1,63 @@
+body{
+	font-family: "Helvetica";
+	margin: 0 auto;
+	width: 910px;
+	height: 1000px;
+	color: white;
+	/*Used w3schools for help*/
+    background: -webkit-linear-gradient(left top, black , green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, black, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, black, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black , green); /* Standard syntax */
+}
+
+p{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	padding: 50px;
+}
+
+.header{
+	background-image: url("repeating-background.jpg");
+	padding: 5px;
+	text-align: right;
+}
+
+.textbold{
+	font-weight: bold;
+}
+
+.pblock{
+	display: inline-block;
+	width: 200px;
+	text-align: justify;
+	padding: 50px;
+}
+
+
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: grey;
+}
+
+a:hover{
+	background: black;
+}
+
