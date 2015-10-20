@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* Steven Corey's CSS Document. */
+html {
+	background-image:url(repeating-background.jpg);
+}
+
+body {
+	width: 850px;
+	margin: 1.5em auto; 
+	border-color:#838383;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-image:url(body-gradient.jpg);
+	background-repeat:repeat-x;
+}
+
+#banner{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+#nav {
+	text-align: center;
+	list-style-type: none;
+	padding: px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav li{
+	display:inline;
+	background-color:#FFFFFF;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#nav a{
+	font-weight: bold;
+	color:#CD282A;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#nav a:hover{
+	font-weight:bold;
+	color:#2383C9;
+	text-decoration: underline;
+	background-color:#000000;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#nav a:active{
+	background-color:#F3E16A;
+}
+
+#nav a:visited{
+	color:#6C6C6C;
+}
+
+.FloatPic{
+	float: right;
+}
+
+#footer{
+	background-color:#838383;
+	padding: 5px;
+	margin-bottom:-50px;
+	margin-left: -50px;
+	margin-right: -50px;
+	font-size:small;
+}
+#footer p{
+	margin:0;
+}
+
+#footer img{
+	border:none;	
+}
+
+h1 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #909;
+}
+
+h2 {
+	padding: 7px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#FCFCFC
+}
+
+h3 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#FFE27E;
+	background-color:#919191;
+}
+
+ul {
+	margin: 2px;
+}
+
+img {
+	border-color:#F70004;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
+
+a {
+  font-weight: bold;
+  color:#9AFFED;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#FFDA9E;
+}
+
