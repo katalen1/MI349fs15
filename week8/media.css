@@ -1,0 +1,21 @@
+.column{
+	margin: 0 auto;
+	width: 33%;
+	background: #e3e3e3;
+	padding: 15px;
+	float: left;
+}
+
+@media(max-width: 600px){
+	.column{
+		width: 100%;
+		float: left;
+	}
+}
+
+@media(max-width: 800px){
+	.column{
+		width: 50%;
+		float: left;
+	}
+}
