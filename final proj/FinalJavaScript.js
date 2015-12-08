@@ -1,5 +1,6 @@
 /**
  * Created by bigka on 12/8/2015.
+ * Code Help: https://coderwall.com/p/vsdrug/how-to-create-an-image-slider-with-javascript
  */
 var ul;
 var li_items;
@@ -13,10 +14,6 @@ function init(){
     li_items = ul.children;
     li_number = li_items.length;
     for (i = 0; i < li_number; i++){
-        // nodeType == 1 means the node is an element.
-        // in this way it's a cross-browser way.
-        //if (li_items[i].nodeType == 1){
-        //clietWidth and width???
         image_width = li_items[i].childNodes[0].clientWidth;
         slider_width += image_width;
         image_number++;
@@ -70,7 +67,7 @@ function animate(opts){
             clearInterval(id);
             opts.callback();
         }
-    }, opts.dalay || 17);
+    }, opts.delay || 17);
 }
 window.onload = init;
 
