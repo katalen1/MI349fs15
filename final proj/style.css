@@ -1,12 +1,22 @@
 @media(min-width: 400px) and (max-width: 799px){
+    body{
+        margin-bottom: 75px;
+    }
+
     h2{
         padding-left: 25px;
         font-weight: 800;
         font-size: 1rem;
+    }
 
+    h3{
+        color:white;
+        float: right;
+        padding-top: 35px;
     }
 
     p{
+        margin-top: 55px;
         padding-left: 25px;
         padding-right:25px;
         font-weight: 300;
@@ -23,7 +33,31 @@
         align-content: center;
     }
 
+    #footer{
+        position:fixed;
+        height: 75px;
+        background-color:gray;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        margin-bottom:0px;
+    }
+
+    .footerContain{
+        height: 100px;
+        width: 66%;
+        align-content: center;
+        margin-left: 16.5%;
+        margin-right: 16.5%;
+    }
+
+    .footerContain img{
+        padding-top: 40px;
+        padding-right: 5px;
+    }
+
     .scrollerContainer{
+        clear: both;
         width: 600px;
         height: 450px;
         padding: 10px;
@@ -33,12 +67,12 @@
         box-sizing:border-box;
         background: black;
         position: relative;
-        top: 25%;
-        left: 25%;
+        left: 10%;
     }
 
     .scrollerArea{
         overflow: hidden;
+        margin-bottom: 25px;
     }
 
     #pictScroller{
@@ -67,7 +101,7 @@
         height: 30px;
         float: right;
         font-size: 1rem;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .button a{
@@ -94,24 +128,51 @@
         margin: 10px;
     }
 
-    a{
+    .main-menu a{
         text-decoration: none;
         color: black;
     }
 
-    a:visited{
+    .main-menu a:visited{
         text-decoration: none;
         color: black;
+    }
+
+    input{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+    }
+
+    textarea{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
     }
 }
 
 @media(min-width: 800px) and (max-width: 1199px){
+    body{
+        margin-bottom: 75px;
+    }
+
     h2{
         font-weight: 800;
         font-size: 1rem;
     }
 
+    h3{
+        color:white;
+        float: right;
+        padding-top: 35px;
+    }
+
     p{
+        margin-top: 55px;
         font-weight: 300;
         font-size: 1.5rem;
         line-height: 1.3em;
@@ -128,8 +189,30 @@
         margin-right: 12.5%;
     }
 
-    article{
+    #footer{
+        position:fixed;
+        height: 75px;
+        background-color:gray;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        margin-bottom:0px;
+    }
+
+    .footerContain{
         height: 100px;
+        width: 66%;
+        align-content: center;
+        margin-left: 16.5%;
+        margin-right: 16.5%;
+    }
+
+    .footerContain img{
+        padding-top: 40px;
+        padding-right: 5px;
+    }
+
+    article{
         width: 66%;
         align-content: center;
         margin-left: 16.5%;
@@ -147,11 +230,12 @@
         background: black;
         position: relative;
         margin-top: 100px;
-        margin-left: 25%;
+        margin-left: 1%;
     }
 
     .scrollerArea{
         overflow: hidden;
+        margin-bottom: 25px;
     }
 
     #pictScroller{
@@ -207,24 +291,51 @@
         margin: 10px;
     }
 
-    a{
+    .main-menu a{
         text-decoration: none;
         color: black;
     }
 
-    a:visited{
+    .main-menu a:visited{
         text-decoration: none;
         color: black;
+    }
+
+    input{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+    }
+
+    textarea{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+        width: 300px;
+        height: 125px;
     }
 }
 
 @media(min-width: 1200px){
+    body{
+        margin-bottom: 75px;
+    }
+
     h2{
         font-weight: 800;
         font-size: 1.3rem;
     }
 
+    h3{
+        color:white;
+        float: right;
+        padding-top: 35px;
+    }
+
     p{
+        margin-top: 55px;
         font-weight: 300;
         font-size: 2rem;
         line-height: 1.3em;
@@ -249,6 +360,7 @@
 
     .scrollerArea{
         overflow: hidden;
+        margin-bottom: 25px;
     }
 
     #pictScroller{
@@ -267,6 +379,7 @@
         left: 0;
     }
 
+
     .button{
         background: black;
         text-align: center;
@@ -278,6 +391,7 @@
         float: right;
         font-size: 1rem;
         padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     .button a{
@@ -298,8 +412,30 @@
         margin-right: 16.5%;
     }
 
-    article{
+    #footer{
+        position:fixed;
+        height: 75px;
+        background-color:gray;
+        bottom:0px;
+        left:0px;
+        right:0px;
+        margin-bottom:0px;
+    }
+
+    .footerContain{
         height: 100px;
+        width: 66%;
+        align-content: center;
+        margin-left: 16.5%;
+        margin-right: 16.5%;
+    }
+
+    .footerContain img{
+        padding-top: 40px;
+        padding-right: 5px;
+    }
+
+    article{
         width: 66%;
         align-content: center;
         margin-left: 16.5%;
@@ -320,14 +456,30 @@
         margin: 10px;
     }
 
-    a{
+    .main-menu a{
         text-decoration: none;
         color: black;
     }
 
-    a:visited{
+    .main-menu a:visited{
         text-decoration: none;
         color: black;
+    }
+
+    input{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+    }
+
+    textarea{
+        padding: 3px;
+        border: 1px solid black;
+        background: #f3f3f3;
+        border-radius: 5px;
+        width: 500px;
+        height: 250px;
     }
 
 }

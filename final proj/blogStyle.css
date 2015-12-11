@@ -1,0 +1,109 @@
+body{
+    background: #b3e6ff;
+}
+
+header{
+    height: 65px;
+    background: #6699ff;
+    position: relative;
+    margin: -8px;
+}
+
+h3{
+    color:white;
+    float: right;
+}
+
+article{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#footer{
+    position:fixed;
+    height: 55px;
+    background-color:#6699ff;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.footerContain{
+    height: 55px;
+    width: 75%;
+    align-content: center;
+    margin-left:12.5%;
+}
+
+.footerContain img{
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.display{
+    width: 55%;
+    padding: 25px;
+    float: left;
+    background: white;
+    border: 2px grey solid;
+    border-radius: 15px;
+    margin-bottom: 75px;
+}
+
+.display h3{
+    color: grey;
+    font-size: 1em;
+    margin-left: 5%;
+}
+
+.sideBar{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+    float: right;
+    float: left;
+    background: white;
+    border: 2px grey solid;
+}
+
+.title{
+    font-family: "Arial Black";
+    width: 100%;
+    color: white;
+    font-size: 1.5em;
+    background: blue;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.headerContainer{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 65px;
+    color: white;
+}
+
+.main-menu{
+    border: 2px black solid;
+    border-radius: 15px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.main-menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-menu a:visited{
+    color: black;
+    text-decoration: none;
+}
