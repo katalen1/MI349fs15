@@ -5,3 +5,144 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
+h3{
+    color:black;
+    float: right;
+}
+
+header{
+    height: 50px;
+    background: silver;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    clear: both;
+}
+
+article{
+    width: 90%;
+    align-content: center;
+    margin-left: 5%;
+}
+
+.tour{
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    float: right;
+    width: 30%;
+    color: white;
+    background-color: wheat;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.tour h1{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.tour p{
+    padding: 5px;
+    color: black;
+}
+
+.tour a{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.tour a:visited{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.about{
+    float: left;
+    width: 60%;
+    clear: both;
+    background-color: wheat;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 95px;
+}
+
+.moped{
+    float: right;
+    width: 30%;
+    margin-left: 50px;
+    background-color: wheat;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.about a{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.about a:visited{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+
+}
+
+.moped a{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+.moped a:visited{
+    color: coral;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+
+
+.main-menu{
+    float: right;
+    text-align: center;
+    height: 25px;
+    margin: 10px;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-menu a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    position:fixed;
+    height: 55px;
+    background-color: silver;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+.footerContain{
+    height: 55px;
+    width: 75%;
+    align-content: center;
+    margin-left:12.5%;
+}
+
+.footerContain img{
+    padding-top: 15px;
+    padding-right: 5px;
+}

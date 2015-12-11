@@ -1,0 +1,19 @@
+article{
+    background-color: black;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+p{
+    background: silver;
+    opacity: 50;
+    border-radius: 55px;
+    font-size: 3em;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}

@@ -1,1 +1,8 @@
 https://www.msu.edu/~katalen1
+
+I made a few minor changes to my website from the pre-production work I did. I decided to go with a smaller logo instead of a banner. 
+Also my UI Flow is a bit different because I decided not to include my resume.
+The other change is my Picture Scroller, for some reason when I tried to make the images links it messed with the size of the image(?). This screwed the images
+up and would only allow 2/3 pictures to show and they were not properly displayed in the scroller, they were shifted to the right like 30px. I tried going
+back to the guide I used and messing with the sized of the container class I made but was unable to get it to work properly, so I included links below the slider. I'm 
+not sure if it was just the way in which this Javascript code was written or if I messed something up along the way, but I know it is possible to make those images links.

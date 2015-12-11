@@ -1,4 +1,4 @@
-@media(min-width: 400px) and (max-width: 799px){
+@media(max-width: 799px){
     body{
         margin-bottom: 75px;
     }

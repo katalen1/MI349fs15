@@ -3,15 +3,14 @@ body{
 }
 
 header{
-    height: 65px;
+    height: 55px;
     background: #6699ff;
     position: relative;
     margin: -8px;
 }
 
 h3{
-    color:white;
-    float: right;
+    color:grey;
 }
 
 article{
